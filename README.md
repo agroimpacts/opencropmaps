@@ -48,11 +48,16 @@ s3://opencropmaps/maps/croptypes/ghana/2020/ejura_tain_2020_2yr_4class.tif \
 
     download: s3://opencropmaps/maps/croptypes/ghana/2020/ejura_tain_2020_2yr_4class.tif to ../../../Desktop/ejura_tain_2020_2yr_4class.tif
 
-That will download a map of crop types for Ejura-Tain for the year 2020
-to your desktop (you might need to replace \~/ with the full path to
-your home directory).
+That will download a map of prediced crop types for Ejura-Tain for the
+year 2020 to your desktop (you might need to replace \~/ with the full
+path to your home directory).
 
 ### From Box
 
 The data may also be downloaded from a [public Box
 folder](https://airg.box.com/s/s9vhe5zy39e7oljc233n4bc3fxcow5fe).
+
+## Viewing data
+
+An example of how to view the data (using a jupyter notebook) is
+available [here](notebooks/croptype_viewer.ipynb).
